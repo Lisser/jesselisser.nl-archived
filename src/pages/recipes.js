@@ -1,14 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import "../index.scss";
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Recipes" />
     <div className="container">
       <h1>Hi people</h1>
       <p>My name is Jesse Lisser.</p>
