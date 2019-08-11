@@ -5,28 +5,23 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Hero from '../components/hero';
 
-import formatDistance from 'date-fns/formatDistance'
+import formatDistance from 'date-fns/formatDistance';
 
 const IndexPage = () => {
   const data = useStaticQuery(
     graphql`
-    query get_insta_feed {
-      allInstaNode(
-        sort: {
-          fields: [timestamp]
-          order: DESC
-        }
-      ) {
-        edges {
-          node {
-            id
-            preview
-            username
-            timestamp
+      query get_insta_feed {
+        allInstaNode(sort: { fields: [timestamp], order: DESC }) {
+          edges {
+            node {
+              id
+              preview
+              username
+              timestamp
+            }
           }
         }
       }
-    }
     `
   );
   return (
@@ -46,7 +41,7 @@ const IndexPage = () => {
       <section className="section">
         <div className="container">
           <div className="columns is-multiline">
-            {data.allInstaNode.edges.map((edge) => (
+            {data.allInstaNode.edges.map(edge => (
               <div className="column is-one-third" key={edge.node.id}>
                 <div className="card ">
                   {/* <header className="card-header">
@@ -59,15 +54,17 @@ const IndexPage = () => {
                       </a>
                     </div>
                   </header> */}
-                  <div className="card-image">
-                    <figure className="image is-1by1">
-                      <img
-                        style={{ objectFit: 'cover' }}
-                        src={edge.node.preview}
-                        alt="Placeholder"
-                      ></img>
-                    </figure>
-                  </div>
+                  <a href={`https://www.instagram.com/p/${edge.node.id}`}>
+                    <div className="card-image">
+                      <figure className="image is-1by1">
+                        <img
+                          style={{ objectFit: 'cover' }}
+                          src={edge.node.preview}
+                          alt="Placeholder"
+                        ></img>
+                      </figure>
+                    </div>
+                  </a>
                 </div>
               </div>
             ))}
