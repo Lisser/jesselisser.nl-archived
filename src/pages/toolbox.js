@@ -27,7 +27,9 @@ const NotFoundPage = () => (
           <li><a href="https://www.leveluptutorials.com/tutorials/pro-gatsby-2">Scott Tolinskey's Gatsby Course</a></li>
           <li><a href="https://www.udemy.com/the-gatsby-masterclass/learn/lecture/13314236#overview">Udemy Course (Gerard)</a></li>
           <li><a href="https://pwn.by/noraj/">noraj: Cool example</a></li>
-          <li><a href="https://bulma.io/documentation/elements/title/">Netlify</a></li>
+          <li><a href="https://bulma.io/documentation">Bulma</a></li>
+          <li><a href="https://app.netlify.com/sites/unruffled-darwin-80c673/overview">Netlify Admin</a></li>
+          <li><a href="htthttps://unruffled-darwin-80c673.netlify.com/">Netlify Deployed</a></li>
         </ul>
       </div>
     </section>
