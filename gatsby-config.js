@@ -12,7 +12,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `jesselisser.nl`,
         short_name: `Jesse`,
         start_url: `/`,
         background_color: `#663399`,
