@@ -31,21 +31,21 @@ const Navbar = () => {
           <div className="navbar-start">
             <Link to="/"  className="navbar-item">
               <span className="icon">
-                <i class="fas fa-home"></i>
+                <i className="fas fa-home"></i>
               </span>
               <span>Home</span>
             </Link>
   
             <Link to="/recipes"  className="navbar-item">
               <span className="icon">
-                <i class="fas fa-book"></i>
+                <i className="fas fa-book"></i>
               </span>
               <span>Recipes</span>
             </Link>
   
             <Link to="/toolbox"  className="navbar-item">
               <span className="icon">
-                <i class="fas fa-tools"></i>
+                <i className="fas fa-tools"></i>
               </span>
               <span>Toolbox</span>
             </Link>

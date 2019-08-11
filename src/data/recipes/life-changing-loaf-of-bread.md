@@ -1,12 +1,14 @@
 ---
-slug: "/ramen-noodles"
-title: "Ramen Noodles"
-date: "2019-08-11"
+slug: "/life-changing-loaf-of-bread"
+title: "The Life-Changing Loaf of Bread"
+date: "2019-08-10"
 ---
 
-# Ramen Noodles
+# The Life-Changing Loaf of Bread
 
 ## Ingredients
+- 300g rolled oats
+- ...
 
 ## Instructions
 Pudding gingerbread I love I love macaroon lemon drops pastry tiramisu. Topping halvah I love. Dragée sweet pudding. Icing pie tart sugar plum. Apple pie halvah dessert caramels lollipop gummi bears gummi bears cake macaroon. Marzipan fruitcake tiramisu pudding toffee biscuit I love I love. Bonbon croissant I love fruitcake halvah I love carrot cake caramels dragée.

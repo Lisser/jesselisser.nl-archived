@@ -7,30 +7,30 @@ const Footer = () => (
         <strong>Built</strong> by{' '}
         <a href="https://lisser.tech">Jesse Lisser</a>.
       </p>
-      <p class="buttons is-centered">
-        <a class="u-email button" href="mailto:jesselisser@gmail.com" aria-label="Email" rel="me">
+      <p className="buttons is-centered">
+        <a className="u-email button" href="mailto:jesselisser@gmail.com" aria-label="Email" rel="me">
           <span className="icon">
-            <i class="fas fa-envelope"></i>
+            <i className="fas fa-envelope"></i>
           </span>
         </a>
-        <a class="u-url button" href="https://github.com/Lisser" aria-label="Github" rel="me">
+        <a className="u-url button" href="https://github.com/Lisser" aria-label="Github" rel="me">
           <span className="icon">
-            <i class="fab fa-github"></i>
+            <i className="fab fa-github"></i>
           </span>
         </a>
-        <a class="u-url button" href="https://www.linkedin.com/in/jesse-lisser-422b0625" aria-label="LinkedIn" rel="me">
+        <a className="u-url button" href="https://www.linkedin.com/in/jesse-lisser-422b0625" aria-label="LinkedIn" rel="me">
           <span className="icon">
-            <i class="fab fa-linkedin"></i>
+            <i className="fab fa-linkedin"></i>
           </span>
         </a>
-        <a class="u-url button" href="https://www.instagram.com/messy_.jesse" aria-label="Instagram" rel="me">
+        <a className="u-url button" href="https://www.instagram.com/messy_.jesse" aria-label="Instagram" rel="me">
           <span className="icon">
-            <i class="fab fa-instagram"></i>
+            <i className="fab fa-instagram"></i>
           </span>
         </a>
-        <a class="u-url button" href="https://www.facebook.com/jesse.lisser" aria-label="Facebook" rel="me">
+        <a className="u-url button" href="https://www.facebook.com/jesse.lisser" aria-label="Facebook" rel="me">
           <span className="icon">
-            <i class="fab fa-facebook-square"></i>
+            <i className="fab fa-facebook-square"></i>
           </span>
         </a>
       </p>
