@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "jesselisser.nl",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "The source code of jesselisser.nl",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jesse Lisser <jesselisser@gmail.com>",
   "dependencies": {
     "bulma": "^0.7.5",
     "gatsby": "^2.13.57",
@@ -14,6 +14,7 @@
     "gatsby-plugin-sass": "^2.1.6",
     "gatsby-plugin-sharp": "^2.2.11",
     "gatsby-source-filesystem": "^2.1.9",
+    "gatsby-transformer-remark": "^2.6.12",
     "gatsby-transformer-sharp": "^2.2.6",
     "node-sass": "^4.12.0",
     "prop-types": "^15.7.2",
@@ -38,9 +39,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/Lisser/jesselisser.nl"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/Lisser/jesselisser.nl/issues"
   }
 }
