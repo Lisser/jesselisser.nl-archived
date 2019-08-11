@@ -31,7 +31,7 @@ const IndexPage = () => {
       <Hero title="Recipes" subtitle="Yumm"></Hero>
       <section className="section">
         <div className="container">
-          <div className="columns is-multiline is-mobile">
+          <div className="columns is-multiline">
             {data.allMarkdownRemark.edges.map((edge, index) => (
               <div className="column is-one-third" key={index}>
                 <div className="card">
