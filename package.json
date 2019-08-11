@@ -6,6 +6,7 @@
   "author": "Jesse Lisser <jesselisser@gmail.com>",
   "dependencies": {
     "bulma": "^0.7.5",
+    "date-fns": "^2.0.0-beta.4",
     "gatsby": "^2.13.57",
     "gatsby-image": "^2.2.8",
     "gatsby-plugin-manifest": "^2.2.5",
