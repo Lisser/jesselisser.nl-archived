@@ -5,6 +5,7 @@
 
 @import "~bulma/bulma.sass";
 
+// Sticky footer
 .site {
   display: flex;
   flex-direction: column;
@@ -12,4 +13,32 @@
 }
 .site-content {
   flex-grow: 1;
+}
+
+// Footer button colors (conforming to their brand colors)
+footer a.u-url, footer a.u-email {
+  color: white;
+  background-color: black;
+  border: none;
+  transition: all 400ms;
+  border-radius: 50%;
+}
+footer a[href*="instagram.com"].u-url {
+  background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  border: none;
+}
+footer a[href*="linkedin.com"].u-url {
+  background-color: #007bb5;
+}
+footer a[href*="facebook.com"].u-url {
+  background-color: #3c5a99;
+}
+footer a.u-email {
+  background-color: #A69CA2;
+}
+
+footer a.u-url:focus, footer a.u-url:hover,
+footer a.u-email:focus, footer a.u-email:hover {
+  border-radius: 4px;
+  color: white;
 }
