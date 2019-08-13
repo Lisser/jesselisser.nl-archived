@@ -10,18 +10,31 @@ import formatDistance from 'date-fns/formatDistance';
 const IndexPage = () => {
   const data = useStaticQuery(
     graphql`
-      query get_insta_feed {
-        allInstaNode(sort: { fields: [timestamp], order: DESC }) {
-          edges {
-            node {
-              id
-              preview
-              username
-              timestamp
+    query get_insta_feed {
+      allInstaNode(
+        sort: {
+          fields: [timestamp]
+          order: DESC
+        }
+      ) {
+        edges {
+          node {
+            id
+            preview
+            username
+            timestamp
+            localFile {
+              relativePath
+              childImageSharp {
+                fixed(width: 400, height: 400) {
+                  src
+                }
+              }
             }
           }
         }
       }
+    }
     `
   );
   return (
@@ -59,7 +72,7 @@ const IndexPage = () => {
                       <figure className="image is-1by1">
                         <img
                           style={{ objectFit: 'cover' }}
-                          src={edge.node.preview}
+                          src={edge.node.localFile.childImageSharp.fixed.src}
                           alt="Placeholder"
                         ></img>
                       </figure>
