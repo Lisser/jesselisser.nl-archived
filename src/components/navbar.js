@@ -10,11 +10,11 @@ const Navbar = () => {
   const activeClass = active ? 'is-active' : '';
 
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav className="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
       <div className="container">
         <div className="navbar-brand">
           <Link to="/" className="navbar-item u-url u-uid p-name">
-            <h1 className="title is-4">
+            <h1 className="title brand is-4">
               Jesse Lisser
             </h1>
           </Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
             </Link>
   
             <Link to="/recipes"  className="navbar-item">
-              <span className="icon">
+              <span className="icon has-text-book">
                 <i className="fas fa-book"></i>
               </span>
               <span>Recipes</span>

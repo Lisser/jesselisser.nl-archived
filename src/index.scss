@@ -5,6 +5,19 @@
 
 @import "~bulma/bulma.sass";
 
+// Top bar menu icon colors
+.has-text-book {
+  color: #ffd257;
+}
+
+// Logo
+.brand {
+  border: 2px solid black;
+  padding: 4px 8px;
+  background: black;
+  color: white;
+}
+
 // Sticky footer
 .site {
   display: flex;
