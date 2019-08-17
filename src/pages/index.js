@@ -51,6 +51,8 @@ const IndexPage = () => {
           </p>
         </div>
       </section>
+      <section className="section">
+
       <div className="container">
         <div className="card">
 
@@ -99,6 +101,7 @@ const IndexPage = () => {
 
         </div>
       </div>
+      </section>
     </Layout>
   );
 };
