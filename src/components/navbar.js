@@ -29,8 +29,8 @@ const Navbar = () => {
   
         <div className={`navbar-menu ${activeClass}`}>
           <div className="navbar-start">
-            <Link to="/"  className="navbar-item">
-              <span className="icon">
+            <Link to="/" className="navbar-item">
+              <span className="icon has-text-primary">
                 <i className="fas fa-home"></i>
               </span>
               <span>Home</span>
@@ -44,7 +44,7 @@ const Navbar = () => {
             </Link>
   
             <Link to="/toolbox"  className="navbar-item">
-              <span className="icon">
+              <span className="icon has-text-info">
                 <i className="fas fa-tools"></i>
               </span>
               <span>Toolbox</span>
