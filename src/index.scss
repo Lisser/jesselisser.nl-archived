@@ -18,6 +18,19 @@
   color: white;
 }
 
+
+// Grid fix
+.columns.is-variable .column {
+  padding: var(--columnGap);
+}
+.columns.is-variable.is-tiny {
+  --columnGap: 1px;
+}
+.insta-columns {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
 // Sticky footer
 .site {
   display: flex;
