@@ -6,6 +6,7 @@ import SEO from '../components/seo';
 import Hero from '../components/hero';
 
 import formatDistance from 'date-fns/formatDistance';
+import { FaInstagram } from 'react-icons/fa';
 
 const IndexPage = () => {
   const data = useStaticQuery(
@@ -66,7 +67,7 @@ const IndexPage = () => {
 
             <a className="card-header-icon u-url" href="https://www.instagram.com/messy_.jesse" aria-label="Instagram" rel="me">
               <span className="icon">
-                <i className="fab fa-instagram"></i>
+                <FaInstagram />
               </span>
             </a>
           </header>

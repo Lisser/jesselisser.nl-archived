@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "gatsby";
+import { FaHome, FaBook, FaTools } from "react-icons/fa";
 
 const Navbar = () => {
 
@@ -31,21 +32,21 @@ const Navbar = () => {
           <div className="navbar-start">
             <Link to="/" className="navbar-item">
               <span className="icon has-text-primary">
-                <i className="fas fa-home"></i>
+                <FaHome />
               </span>
               <span>Home</span>
             </Link>
   
             <Link to="/recipes"  className="navbar-item">
               <span className="icon has-text-book">
-                <i className="fas fa-book"></i>
+                <FaBook />
               </span>
               <span>Recipes</span>
             </Link>
   
             <Link to="/toolbox"  className="navbar-item">
               <span className="icon has-text-info">
-                <i className="fas fa-tools"></i>
+                <FaTools />
               </span>
               <span>Toolbox</span>
             </Link>
