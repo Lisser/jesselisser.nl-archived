@@ -57,9 +57,9 @@ const IndexPage = () => {
       <div className="container">
         <div className="card">
 
-          <header class="card-header">
+          <header className="card-header">
             
-            <p class="card-header-title">
+            <p className="card-header-title">
               <a className="u-url is-link" href="https://www.instagram.com/messy_.jesse" aria-label="Instagram" rel="me">
                 messy_.jesse
               </a>
