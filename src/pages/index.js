@@ -5,7 +5,6 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Hero from '../components/hero';
 
-import formatDistance from 'date-fns/formatDistance';
 import { FaInstagram } from 'react-icons/fa';
 
 const IndexPage = () => {
@@ -61,7 +60,7 @@ const IndexPage = () => {
             
             <p className="card-header-title">
               <a className="u-url is-link" href="https://www.instagram.com/messy_.jesse" aria-label="Instagram" rel="me">
-                messy_.jesse
+                @messy_.jesse
               </a>
             </p>
 

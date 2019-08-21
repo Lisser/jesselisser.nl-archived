@@ -8,7 +8,7 @@ import Hero from '../components/hero';
 const IndexPage = () => {
   const data = useStaticQuery(
     graphql`
-      query dataQuery {
+      query list_recipes_query {
         allMarkdownRemark(limit: 5, sort: {
           order: DESC,
           fields: [frontmatter___date]
@@ -30,7 +30,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Recipes" />
-      <Hero title="Recipes" subtitle="Yumm"></Hero>
+      <Hero title="Recipes" subtitle="🍴🍜 - Gathered on-line, in-person or created by myself. Treasured here"></Hero>
       <section className="section">
         <div className="container">
           <div className="columns is-multiline">
