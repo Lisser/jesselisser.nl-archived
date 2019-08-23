@@ -1,22 +1,12 @@
 @charset "utf-8";
 
-// If need, change your variables before importing Bulma
-// $title-color: #ff0000;
+// Settings
+@import "settings";
 
 @import "~bulma/bulma.sass";
 
-// Top bar menu icon colors
-.has-text-book {
-  color: #ffd257;
-}
-
-// Logo
-.brand {
-  border: 2px solid black;
-  padding: 4px 8px;
-  background: black;
-  color: white;
-}
+// Customizing
+@import "customizing";
 
 
 // Grid fix

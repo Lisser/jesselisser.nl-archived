@@ -2,23 +2,13 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Hero from "../components/hero";
 
 const NotFoundPage = () => (
   <Layout>
     <SEO title="Toolbox" />
 
-    <section className="hero is-primary">
-      <div className="hero-body">
-        <div className="container">
-          <h1 className="title is-1">
-            Toolbox
-          </h1>
-          <h2 className="subtitle">
-            A collection of online resources to build my site
-          </h2>
-        </div>
-      </div>
-    </section>
+    <Hero title="Toolbox" subtitle="A collection of online resources to build my site"></Hero>
 
     <section className="section">
       <div className="container">
