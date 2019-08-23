@@ -18,14 +18,14 @@ const Navbar = () => {
             <Link to="/" className="navbar-item has-text-white is-size-4 has-text-weight-bold u-url u-uid p-name">
                 jesselisser.nl
             </Link>
-            <a role="button" onClick={() => toggleHamburger()} className={`navbar-burger burger ${activeClass}`} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <a role="button" onClick={() => toggleHamburger()} className={`navbar-burger burger has-text-white ${activeClass}`} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
             </a>
           </div>
           <div className={`navbar-menu ${activeClass}`}>
-            <div className="navbar-start">
+            <div className="navbar-end">
               <Link to="/recipes"  className="navbar-item">
                 <span>#recipes</span>
               </Link>
