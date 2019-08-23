@@ -20,6 +20,7 @@ const NotFoundPage = () => (
           <li><a href="https://bulma.io/documentation">Bulma</a></li>
           <li><a href="https://app.netlify.com/sites/unruffled-darwin-80c673/overview">Netlify Admin</a></li>
           <li><a href="https://unruffled-darwin-80c673.netlify.com/">Netlify Deployed</a></li>
+          <li><a href="https://biron.bironthemes.com/">Biron Ghost Theme</a></li>
         </ul>
       </div>
     </section>
