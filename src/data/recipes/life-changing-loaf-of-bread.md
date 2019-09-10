@@ -2,6 +2,7 @@
 slug: "/life-changing-loaf-of-bread"
 title: "The Life-Changing Loaf of Bread"
 date: "2019-08-10"
+featuredImage: ./life-changing-loaf-of-bread.jpg
 ingredients:
   - 1 cup / 135g sunflower seeds
   - ½ cup / 90g flax seeds

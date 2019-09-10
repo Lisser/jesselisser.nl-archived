@@ -2,9 +2,8 @@
 slug: "/ramen-noodles"
 title: "Ramen Noodles"
 date: "2019-08-11"
+featuredImage: ./ramen.jpg
 ---
-
-# Ramen Noodles
 
 ## Ingredients
 

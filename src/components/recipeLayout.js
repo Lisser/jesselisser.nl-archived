@@ -18,6 +18,13 @@ export const query = graphql`
           title
           ingredients
           slug
+          featuredImage  {
+            childImageSharp {
+              fluid(maxWidth: 800) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           date(formatString: "MMMM DD, YYYY")
         }
     }

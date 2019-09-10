@@ -8,11 +8,6 @@
 // Customizing
 @import "customizing";
 
-// Hero background
-#hero {
-  background-image: url(./images/background.png);
-}
-
 // Grid fix
 .columns.is-variable .column {
   padding: var(--columnGap);

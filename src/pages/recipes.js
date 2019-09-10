@@ -1,5 +1,6 @@
 import React from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
+import Img from "gatsby-image"
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -19,6 +20,13 @@ const IndexPage = () => {
               frontmatter {
                 title
                 slug
+                featuredImage  {
+                  childImageSharp {
+                    fluid(maxWidth: 800) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
                 date(formatString: "MMMM DD, YYYY")
               }
             }
@@ -31,7 +39,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Recipes" />
       <Hero title="Recipes" subtitle="🍴🍜 - Gathered on-line, in-person or created by myself. Treasured here"></Hero>
-      <section className="section">
+      <section className="section" id="recipes">
         <div className="container">
           <div className="columns is-multiline">
             {data.allMarkdownRemark.edges.map((edge) => (
@@ -39,12 +47,7 @@ const IndexPage = () => {
                 <Link to={`/recipes${edge.node.frontmatter.slug}`}>
                   <div className="card">
                     <div className="card-image">
-                      <figure className="image is-4by3">
-                        <img
-                          src="https://bulma.io/images/placeholders/1280x960.png"
-                          alt="Placeholder"
-                        ></img>
-                      </figure>
+                      <Img fluid={{...edge.node.frontmatter.featuredImage.childImageSharp.fluid, aspectRatio: 16/9}} />
                     </div>
                     <div className="card-content">
                       <div className="media">

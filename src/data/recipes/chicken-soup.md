@@ -2,8 +2,9 @@
 slug: "/rich-chicken-soup"
 title: "Rich chicken soup"
 date: "2019-09-07"
+featuredImage: ./bg.jpg
 ingredients:
-  - Chicken
+  - Chicken 
 ---
 
 # Ingredients
@@ -25,7 +26,7 @@ ingredients:
 - Broccoli 
 - Coconut oil
 
-# Method
+# Directions
 - Coconut oil skillet hot
 - Dark meat skin side down
 - Breast

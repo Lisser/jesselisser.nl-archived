@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import { Link } from "gatsby";
-import { FaHome, FaBook, FaTools } from "react-icons/fa";
 
 const Navbar = () => {
 
