@@ -18,18 +18,6 @@ ingredients:
 
 A copy of the recipe published by Sarah Britton at [https://www.mynewroots.org/site/2013/02/the-life-changing-loaf-of-bread](https://www.mynewroots.org/site/2013/02/the-life-changing-loaf-of-bread). It has become one of my staple foods that I keep as base of my diet.
 
-## Ingredients
-- 1 cup / 135g sunflower seeds
-- ½ cup / 90g flax seeds
-- ½ cup / 65g hazelnuts or almonds
-- 1 ½ cups / 145g rolled oats
-- 2 Tbsp. chia seeds
-- 4 Tbsp. psyllium seed husks (3 Tbsp. if using psyllium husk powder)
-- 1 tsp. fine grain sea salt (add ½ tsp. if using coarse salt)
-- 1 Tbsp. maple syrup (for sugar-free diets, use a pinch of stevia)
-- 3 Tbsp. melted coconut oil or ghee
-- 1 ½ cups / 350ml water
-
 ## Directions:
   1. In a flexible, silicon loaf pan combine all dry ingredients, stirring well. Whisk maple syrup, oil and water together in a measuring cup. Add this to the dry ingredients and mix very well until everything is completely soaked and dough becomes very thick (if the dough is too thick to stir, add one or two teaspoons of water until the dough is manageable). Smooth out the top with the back of a spoon. Let sit out on the counter for at least 2 hours, or all day or overnight. To ensure the dough is ready, it should retain its shape even when you pull the sides of the loaf pan away from it it.
   2. Preheat oven to 350°F / 175°C.
